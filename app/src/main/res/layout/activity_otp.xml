@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_verify"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/piink"
+    android:orientation="vertical"
+    tools:context="com.example.dell.employee_details.VerifyOtp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Enter Your OTP here"
+        android:textSize="30dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <EditText
+            android:id="@+id/otp1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_circle"
+            android:backgroundTint="#fff"
+            android:gravity="center"
+
+            android:textColor="#000"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/otp2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_circle"
+            android:backgroundTint="#fff"
+            android:gravity="center"
+            android:textColor="#000"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/otp3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_circle"
+            android:backgroundTint="#fff"
+            android:gravity="center"
+            android:textColor="#000"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/otp4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_circle"
+            android:backgroundTint="#fff"
+            android:gravity="center"
+            android:textColor="#000"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#D52B8B"
+        android:text="Verify" />
+</LinearLayout>

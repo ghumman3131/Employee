@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_professional"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newpinkblue"
+     tools:context="com.example.dell.employee_details.ProfessionalD">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape"
+        android:backgroundTint="#bffeadac"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Employee Id"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/EID"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Designation"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/Desg_id"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Department"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/DEpt_id"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Matric"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/Matric_id"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="High School"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/High_id"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:padding="5dp"
+            android:text="Graduation"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/Grad_id"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:padding="5dp"
+            android:text="PostGraduation"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/PG_id"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:padding="5dp"
+            android:text="Rewards"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/Reward_id"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:padding="5dp"
+            android:text="Exprience"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/Exp_id"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:padding="5dp"
+            android:text="Field Of Specialization"
+            android:textColor="#583c87"
+            android:textSize="30dp"
+            android:id="@+id/Fos_id"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:padding="5dp"
+            android:text="Graduation"
+            android:textColor="#583c87"
+            android:textSize="30dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_security_question"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newpinkblue"
+    tools:context="com.example.dell.employee_details.SecurityQuestion">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/shape"
+        android:backgroundTint="#cafeadac"
+        android:layout_margin="30dp"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employee Id"
+            android:textSize="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:id="@+id/for_emp"
+            />
+
+        <Spinner
+            android:id="@+id/spin_ques"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#583C87"
+            android:layout_marginTop="20dp">
+
+        </Spinner>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Answer"
+            android:id="@+id/answer"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#583C87"
+            android:text="Submit"
+            android:textSize="30dp"
+            android:padding="10dp"
+            android:onClick="submit"
+            android:id="@+id/submit"
+            android:textColor="#FEADAC"/>
+    </LinearLayout>
+</RelativeLayout>
